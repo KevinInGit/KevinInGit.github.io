@@ -1,44 +1,62 @@
-This repository is no longer maintained. 
-============
+# limingyang2012.github.io
 
-Herring Cove
-============
-
-Herring Cove is a clean and responsive theme for Jekyll. 
+###About Theme 
 
 
-### Overview 
+A simple and clean Jekyll theme. The theme works well on mobile devices as well.If you are using this theme, please click a **star** on this respository, I am happy to know where the theme has been used.
 
-* Fixed Sidebar with social links
-* Minimal design 
-* Comments by Disqus
-* Social Sharing abilities 
-* Easy to configure
-* Based on Bootstrap
+#### 麻烦使用我这个博客模板的同学注明下博客模板来源，非常感谢。
 
-### Screenshots
+###About ME
 
-![screenshot](/images/screenshot1.png)
-![screenshot](/images/screenshot2.png)
+blog：[blog](http://limingyang2012.github.io/)
 
-### Setup
+微博：[limingyang2012](http://weibo.com/limingyang2012)
 
-1. Install Jekyll
-2. Fork or [download](https://github.com/arnp/herring-cove/archive/master.zip) this theme repo
-3. Edit the `_config.yml` file
+facebook：[limingyang2012](https://www.facebook.com/limingyang2012)
 
-You can change the showcase image by replacing `showcase.jpg` file in the `images` folder. I'll try to find a better way to do this soon. 
+linkedin：[limingyang2012](www.linkedin.com/in/limingyang2012)
 
-### Download
+###Getting Started
 
-[download](https://github.com/arnp/herring-cove/archive/master.zip)
+1. Clone this repository on your local,
+1. [Install Jekyll](https://github.com/mojombo/jekyll/wiki/install),
+1. Go at the root of the repository and run ```jekyll serve```,
+1. Go to http://localhost:4000,
 
-### License
-* [MIT](http://opensource.org/licenses/MIT)
+#####When you use this theme. Please make sure to add the author's info, like this: Jekyll theme by [limingyang2012](https://github.com/limingyang2012) or Designed by [limingyang2012](https://github.com/limingyang2012)
 
--------------
-Herring Cove is always a work in progress and as such, I hope to clean up the code and add features as time permits. Feel free to add your own additions. 
+You may need to reconfigure `_config.yml` and other file
 
-*What's with the name?*
+![post](https://github.com/limingyang2012/limingyang2012.github.io/blob/master/assets/readme/post.jpg)
 
-[Herring Cove](http://www.capecodbeachchair.com/beachguide/index.cfm?page=3&BeachID=5) is a beach on Cape Cod in Provincetown, Massachusetts. If you're in the area, be sure to check it out!
+
+###Contact
+
+If you have any questions or suggestions for improvements, don't
+hesitate to [open an issue](https://github.com/limingyang2012/limingyang2012.github.io/issues)
+or making a pull request for your fork!
+
+###License
+
+[MIT License](https://github.com/limingyang2012/limingyang2012.github.io/blob/master/LICENSE)
+
+Copyright (c) 2015 limingyang2012
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.

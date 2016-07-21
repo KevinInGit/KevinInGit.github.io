@@ -1,39 +1,20 @@
 ---
-title: Herring Cove
----
-{% include showcase.html %}
-{% include greeting.html %}
-
-{% if site.posts != empty %}
-<div class="recent-posts">
-  <h1>Recent Posts</h1>
-  {% for post in site.posts limit: 3 %}
-    {% if forloop.first %}
-      {% assign add_class = 'most-recent' %}
-      {% capture fresh_tag %}
-        &nbsp;<span class="badge"><smaller>FRESH</smaller></span>
-      {% endcapture %}
-    {% endif %}
-    <ul class="homepage-posts {{ add_class }}">
-      <li>
-        <span>
-          <h4>
-            <a href="{{ site.baseurl }}/{{ post.url }}">
-              {{ post.title }}
-            </a>
-            {{ fresh_tag }}
-            <time class="pull-right">
-              {{ post.date | date_to_string | date: "%b %-d, %Y"  }}
-            </time>
-          </h4>
-        </span>
-      </li>
-    </ul>
-    {% assign add_class = '' %}
-    {% assign fresh_tag = '' %}
-  {% endfor %}
-  <ul>
-    <a href="{{ site.baseurl }}/list.html">View More...</a>
-  </ul>
+layout: default 
+---      
+<div class="container">
+<div class="home">
+    <div class="banner">
+        <div class="banner-text">
+            <h1 class="headline">I'M <span>MINGYANG</span></h1>
+            <h3>Looking for a job about Web Font-End Developer</h3>
+            <h3>I love  programming, getting lost. </h3>
+            <ul class="social">
+                <li><a href="https://github.com/{{ site.name }}"><i class="icon-github"></i></a></li>
+                <li><a href="//www.facebook.com/{{ site.name }}"><i class="icon-facebook"></i></a></li>
+                <li><a href="https://twitter.com/{{ site.name }}"><i class="icon-twitter"></i></a></li>
+                <li><a href="//www.linkedin.com/in/{{ site.name }}"><i class="icon-linkedin2"></i></a></li>
+            </ul>
+        </div>
+    </div>              
 </div>
-{% endif %}
+</div>

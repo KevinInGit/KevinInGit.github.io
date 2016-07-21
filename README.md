@@ -1,2 +1,0 @@
-# KevinInGit.github.io
-MyBlog
